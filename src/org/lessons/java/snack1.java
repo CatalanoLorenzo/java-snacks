@@ -14,6 +14,8 @@ public class snack1 {
 		
 		int numero = input.nextInt();
 		
+		input.close();
+		
 		boolean isPair = numero %2 == 0;
 		
 		System.out.println(
